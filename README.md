@@ -25,7 +25,7 @@ Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to dete
 
 ---
 
-### **Step 1: Create-Alert-Rule** 
+### **Step 1: Create Alert Rule** 
 
 
 ---
