@@ -21,7 +21,11 @@ My goal is to investigate, detect, and mitigate this potential threat in complia
 ---
 
 ## 🔍 **Objective: Find Brute Force and Create Sentinel Scheduled Query Rule**
-Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to detect when the same remote IP address fails to log in to the same Azure VM 10+ times within a 5-hour period.
+Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to detect when the same remote IP address fails to log in to the same Azure VM 50+ times within a 5-hour period.
+
+---
+
+### **Step 1: Create-Alert-Rule** 
 
 
 ---
