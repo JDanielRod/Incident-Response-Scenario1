@@ -39,7 +39,7 @@ DeviceLogonEvents
 | summarize NumberOfFailures = count() by RemoteIP, ActionType, DeviceName
 | where NumberOfFailures >= 50
 ```
-dvs
+
 
 ---
 
