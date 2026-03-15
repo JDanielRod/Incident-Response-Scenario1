@@ -1,24 +1,14 @@
 
-
-
-
----
-
 # 🚨 Incident Response: Brute Force Attempt Detection
 
 ![image](https://github.com/user-attachments/assets/078932c1-3e7e-48cf-a0c1-1cd787336ce6)
 
 ---
 
-## Scenario Context
-As a security analyst for a large financial services organization relying heavily on Microsoft Azure services, I observed multiple failed login attempts, particularly targeting privileged accounts during off-hours. This raises concerns about a brute-force attack or a credential-stuffing campaign. 
+## Scenario
+As a security analyst for an organization, I observed multiple failed authentication attempts across several virtual machines in our environment. The activity suggested a possible brute force attack from multiple external IPs. 
 
 My goal is to investigate, detect, and mitigate this potential threat in compliance with **NIST 800-61** guidelines.
-
----
-
-## 🔍 **Objective: Find Brute Force and Create Sentinel Scheduled Query Rule**
-Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to detect when the same remote IP address fails to log in to the same Azure VM 10+ times within a 5-hour period.
 
 ---
 
@@ -27,6 +17,12 @@ Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to dete
 - **Microsoft Defender for Endpoint**
 - **Kusto Query Language (KQL)**
 - **Windows 10 Virtual Machines (Microsoft Azure)**
+
+---
+
+## 🔍 **Objective: Find Brute Force and Create Sentinel Scheduled Query Rule**
+Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to detect when the same remote IP address fails to log in to the same Azure VM 10+ times within a 5-hour period.
+
 
 ---
 
