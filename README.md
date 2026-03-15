@@ -25,7 +25,7 @@ Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to dete
 NOTE: This project was done in the [Cyber Range](http://joshmadakor.tech/cyber-range) which simulates an enterprise environment.
 ---
 
-### **Step 1: Create Alert Rule** 
+### **Step 1: Design Query** 
 
 I designed a Sentinel Scheduled Query Rule within Log Analytics that will discover when the same IP address has failed to login to the same local host (Azure VM) 50 or more times within the last 5 hours.
 
@@ -41,6 +41,11 @@ DeviceLogonEvents
 ![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/Screenshot%202026-03-15%20155725.png)
 
 ---
+### **Step 2: Create Alert Rule**
+
+Next, I created a Schedule Query Rule in Sentinel. I used the detection query from above.
+
+![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/image.png)
 
 ## **Incident Response Phases**
 ### 1️⃣ Preparation
