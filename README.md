@@ -41,48 +41,6 @@ DeviceLogonEvents
 ```
 
 
-# 🚨 Incident Response: Brute Force Attempt Detection
-
-![image](https://github.com/user-attachments/assets/078932c1-3e7e-48cf-a0c1-1cd787336ce6)
-
----
-
-## Scenario
-As a security analyst for an organization, I observed multiple failed authentication attempts across several virtual machines in our environment. The activity suggested a possible brute force attack from multiple external IPs. 
-
-My goal is to investigate, detect, and mitigate this potential threat in compliance with **NIST 800-61** guidelines.
-
----
-
-## 🛠️ **Platforms and Tools**
-- **Microsoft Sentinel**
-- **Microsoft Defender for Endpoint**
-- **Kusto Query Language (KQL)**
-- **Windows 10 Virtual Machines (Microsoft Azure)**
-
----
-
-## 🔍 **Objective: Find Brute Force and Create Sentinel Scheduled Query Rule**
-Implement a **Sentinel Scheduled Query Rule** using KQL in Log Analytics to detect when the same remote IP address fails to log in to the same Azure VM 50+ times within a 5-hour period.
-
-NOTE: This project was done in the [Cyber Range](http://joshmadakor.tech/cyber-range) which simulates an enterprise environment.
----
-
-### **Step 1: Create Alert Rule** 
-
-I designed a Sentinel Scheduled Query Rule within Log Analytics that will discover when the same IP address has failed to login to the same local host (Azure VM) 50 or more times within the last 5 hours.
-
-**Detection Query:**
-
-```kql
-DeviceLogonEvents
-| where TimeGenerated >= ago(5h)
-| where ActionType == "LogonFailed"
-| summarize NumberOfFailures = count() by RemoteIP, ActionType, DeviceName
-| where NumberOfFailures >= 50
-```
-
-
 ---
 
 ## **Incident Response Phases**
