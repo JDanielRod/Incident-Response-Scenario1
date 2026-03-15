@@ -40,8 +40,6 @@ DeviceLogonEvents
 ```
 Sample output:
 
-
-
 ---
 
 ## **Incident Response Phases**
