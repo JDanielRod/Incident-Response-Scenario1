@@ -40,7 +40,7 @@ DeviceLogonEvents
 ```
 Sample output:
 
-![KQL Brute Force Detection](images/Screenshot 2026-03-15 155725.png)
+![KQL Brute Force Detection](Screenshot 2026-03-15 155725.png)
 ---
 
 ## **Incident Response Phases**
