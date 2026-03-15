@@ -39,7 +39,7 @@ DeviceLogonEvents
 | where NumberOfFailures >= 50
 ```
 Sample output:
-![image](Screenshot 2026-03-15 155725.png)
+![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/Screenshot%202026-03-15%20155725.png)
 
 ---
 
