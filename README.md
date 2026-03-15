@@ -39,7 +39,7 @@ DeviceLogonEvents
 | where NumberOfFailures >= 50
 ```
 Sample output:
-Screenshot 2026-03-15 155725.png
+![image](Screenshot 2026-03-15 155725.png)
 
 ---
 
