@@ -39,8 +39,8 @@ DeviceLogonEvents
 | where NumberOfFailures >= 50
 ```
 Sample output:
+Screenshot 2026-03-15 155725.png
 
-![KQL Brute Force Detection](Screenshot 2026-03-15 155725.png)
 ---
 
 ## **Incident Response Phases**
