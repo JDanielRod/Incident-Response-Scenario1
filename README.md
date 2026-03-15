@@ -38,7 +38,6 @@ DeviceLogonEvents
 | summarize NumberOfFailures = count() by RemoteIP, ActionType, DeviceName
 | where NumberOfFailures >= 50
 ```
-Sample output:
 ![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/Screenshot%202026-03-15%20155725.png)
 
 ---
