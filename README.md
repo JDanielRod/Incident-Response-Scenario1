@@ -95,7 +95,8 @@ From my query, I observed 4 different vms were potentially impacted by brute for
 ---
 
 I observed the logs further to see if there were any successful logins from the IPs in question.
-   - Successful Login Detection Query:
+
+**Successful Login Detection Query:**
       
   ```kql
   DeviceLogonEvents
