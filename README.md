@@ -53,8 +53,6 @@ Next, I created a Schedule Query Rule in Sentinel. I used the detection query fr
 
 After creating the Scheduled Query Rule, an incident was created, which I assigned to myself and set the status to active, as I began to work through it.
 
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/image.png)
-
 ![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/IncidentAssign.png)
 
 ---
