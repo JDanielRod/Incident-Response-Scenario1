@@ -94,7 +94,7 @@ From my query, I observed 4 different vms were potentially impacted by brute for
 ---
 
 I observed the logs further to see if there were any successful logins from the IPs in question.
-   - KQL Query to detect failed logins:
+   - Successful Login Detection Query:
       
   ```kql
   DeviceLogonEvents
@@ -147,5 +147,10 @@ I observed the logs further to see if there were any successful logins from the 
    - Recorded all findings, actions taken, and future recommendations.
 ---
 
+## Incident Closure
 
+   -Brute force attempts were not successful as the query for successful logins yieleded no results.
+   -I closed the incident as a **"True Positive"**. 
+   -I placed my notes of the incident in the acitivity log.
 
+![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/IncidentClosing.png)
