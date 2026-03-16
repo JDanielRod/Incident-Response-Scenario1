@@ -148,26 +148,4 @@ I observed the logs further to see if there were any successful logins from the 
 ---
 
 
----
-
-
-
-
-
-
-
-
-#### Analysis Steps:
-1. **Review Patterns:**
-   - Investigated failed login thresholds in Azure AD logs.
-   - Identified off-hours timing and suspicious IP geolocations.
-
-2. **Document Findings:**
-   - Retained logs detailing the frequency, origin, and targets of failed attempts.
-
-3. **Prioritize:**
-   - **High Priority:** Privileged accounts targeted during off-hours.
-   - **Low Priority:** Isolated, user-specific failed attempts.
-
-
 
