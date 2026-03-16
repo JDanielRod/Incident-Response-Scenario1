@@ -56,6 +56,7 @@ After creating the Scheduled Query Rule, an incident was created, which I assign
 ![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/image.png)
 
 ![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/IncidentAssign.png)
+
 ---
 
 ## 🚨 **Incident Response Phases**
