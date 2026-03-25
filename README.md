@@ -39,7 +39,7 @@ DeviceLogonEvents
 | summarize NumberOfFailures = count() by RemoteIP, ActionType, DeviceName
 | where NumberOfFailures >= 50
 ```
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/Screenshot%202026-03-15%20155725.png)
+<img width="629" height="205" alt="image" src="https://github.com/user-attachments/assets/abda59fd-f9a7-4091-8f25-c914eb2a5313" />
 
 ---
 ### **Step 2: Create Alert Rule**
