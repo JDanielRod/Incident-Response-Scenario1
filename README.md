@@ -153,4 +153,4 @@ I observed the logs further to see if there were any successful logins from the 
  
  Brute force attempts were not successful as the query for successful logins yieleded no results. I closed the incident as a **"True Positive"** and placed my notes in the Incident Activity Log.
 
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/IncidentClosing.png)
+<img width="638" height="508" alt="image" src="https://github.com/user-attachments/assets/bfd0e1c5-aea1-4751-abdd-05db266b7184" />
