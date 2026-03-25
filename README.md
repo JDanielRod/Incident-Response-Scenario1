@@ -1,7 +1,8 @@
 
 # 🚨 Incident Response: Brute Force Attempt Detection
 
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/BruteForcepic.png)
+<img width="629" height="423" alt="image" src="https://github.com/user-attachments/assets/466b7dab-3516-4963-bc86-bd00a7a7ca2d" />
+
 
 ---
 
