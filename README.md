@@ -46,7 +46,7 @@ DeviceLogonEvents
 
 Next, I created a Schedule Query Rule in Sentinel. I used the detection query from above.
 
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/image.png)
+<img width="762" height="257" alt="image" src="https://github.com/user-attachments/assets/cb144d92-d500-4d17-a0c2-05f38d411da6" />
 
 ---
 
