@@ -103,7 +103,7 @@ I observed the logs further to see if there were any successful logins from the 
 | where RemoteIP in ("80.94.95.238", "209.38.80.147", "209.38.22.111", "185.156.73.169", "185.156.73.169")
 | where ActionType != "LogonFailed"
   ```
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/NoResults.png)
+<img width="761" height="262" alt="image" src="https://github.com/user-attachments/assets/2e345c12-b6b5-466a-9b3e-7787cbbbf1e8" />
 
   **Result:** No successful logins from these IPs were detected.
 
