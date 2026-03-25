@@ -81,7 +81,7 @@ After creating the Scheduled Query Rule, an incident was created, which I assign
 
 From my query, I observed 4 different vms were potentially impacted by brute force attempts from 5 different public ips on internet. 
 
-![image](https://github.com/JDanielRod/Incident-Response-Scenario1/blob/main/Investigation.png)
+<img width="757" height="458" alt="image" src="https://github.com/user-attachments/assets/51a93887-726d-4f00-9064-8e0df34c7503" />
 
 
 | Remote IP       | Action Type | Device Name                                                                 | Failed Attempts |
