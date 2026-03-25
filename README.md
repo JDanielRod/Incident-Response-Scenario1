@@ -1,7 +1,8 @@
 
 # 🚨 Incident Response: Brute Force Attempt Detection
 
-<img width="629" height="423" alt="image" src="https://github.com/user-attachments/assets/466b7dab-3516-4963-bc86-bd00a7a7ca2d" />
+<img width="1536" height="1024" alt="BruteForcepic" src="https://github.com/user-attachments/assets/97cb868e-662a-419b-acdf-1f1f84c93a0a" />
+
 
 
 ---
